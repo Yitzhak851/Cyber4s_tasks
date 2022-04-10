@@ -1,6 +1,22 @@
-#index {
+.index {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  z-index: 2;
+  position: center;
+  background: yellow;
 }
+
+
+    #Main-page {
+      position: absolute;
+      top: 0;
+      right: -1.875em;
+      z-index: 1;
+  }
+
+  .Main-page  {
+    text-decoration: underline none;
+  }
+
 .first-para {
   z-index: 2;
   position: float;
