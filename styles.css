@@ -1,3 +1,14 @@
+#Zero{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  width: 10px;
+  height: 10px;
+}
+#One:hover{
+  cursor: pointer;
+}
 #One{
   position: absolute;
   top: 20px;
@@ -6,6 +17,9 @@
   width: 35px;
   height: 35px;
 }
+#One:hover{
+  cursor: pointer;
+}
 #Two{
     position: absolute;
     top: 25px;
@@ -13,6 +27,9 @@
     width: 80px;
     height: 20px;
   }
+#Two:hover{
+    cursor: pointer;
+}
 #Three{
   position: absolute;
   top: 40px;
@@ -20,12 +37,30 @@
   width: 80px;
   height: 20px;
 }
+#Three:hover{
+  cursor: pointer;
+}
 #Four{
   position: absolute;
   top: 25px;
   left: 190px;
   width: 520px;
   height: 25px;
+}
+#Four:hover{
+  cursor: text;
+}
+#Five{
+  position: absolute;
+  top: 25px;
+  left: 725px;
+  width: 100px;
+  height: 25px;
+  background-color: white;
+}
+#Five:hover{
+  background-color: blue;
+  cursor: pointer;
 }
 
 
