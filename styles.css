@@ -62,69 +62,43 @@
   background-color: blue;
   cursor: pointer;
 }
-
-
-
-
-
-.index {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  z-index: 2;
-  position: center;
-  background: green;
-}
-
-.Main-bla{
-  margin:20px;
-  padding: 30px;
-  border: 2px solid blue;
+#Six{
   position: absolute;
-  top: 300px;
-  left: 600px;
+  top: 100px;
+  left: 5px;
+  width: 100px;
+  height: 25px;
+  background-color: white;
 }
-
-
-.body .page-container .main-container header {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-flow: row wrap;
-  flex-flow: row wrap;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border-bottom: 1px solid #aaaaaa;
-  font-size: 0.9em;
+#Six:hover{
+  cursor: pointer;
 }
-
-#Main-page {
+#Seven{
   position: absolute;
-  top: 0;
-  right: -1.875em;
-  z-index: 1;
-  text-decoration: underline none;
+  top: 260px;
+  left: 200px;
+  width: 230px;
+  height: 200px;
+  background-color: white; 
 }
-
-.first-para {
-  z-index: 2;
-  position: float;
-  background: yellow;
+#Eight{
+  position: absolute;
+  top: 500px;
+  left: 150px;
+  width: 1000px;
+  height: 2000px;
 }
-
+#Nine{
+  position: absolute;
+  top: 120px;
+  left: 160px;
+  width: 700px;
+  height: 300px;
+  background-color: white;
+}
 h2 {
   color: black;
   background: white;
   text-decoration: underline black;
   content: normal;
-
-}
-
-General {
-  background: red;
 }
