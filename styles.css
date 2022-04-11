@@ -1,3 +1,37 @@
+#One{
+  position: absolute;
+  top: 20px;
+  left: 60px;
+  right: 30px;
+  width: 35px;
+  height: 35px;
+}
+#Two{
+    position: absolute;
+    top: 25px;
+    left: 100px;
+    width: 80px;
+    height: 20px;
+  }
+#Three{
+  position: absolute;
+  top: 40px;
+  left: 100px;
+  width: 80px;
+  height: 20px;
+}
+#Four{
+  position: absolute;
+  top: 25px;
+  left: 190px;
+  width: 520px;
+  height: 25px;
+}
+
+
+
+
+
 .index {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   z-index: 2;
