@@ -2,8 +2,18 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   z-index: 2;
   position: center;
-  background: yellow;
+  background: green;
 }
+
+.Main-bla{
+  margin:20px;
+  padding: 30px;
+  border: 2px solid blue;
+  position: absolute;
+  top: 300px;
+  left: 600px;
+}
+
 
 .body .page-container .main-container header {
   width: 100%;
@@ -12,43 +22,40 @@
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   border-bottom: 1px solid #aaaaaa;
   font-size: 0.9em;
 }
 
-    #Main-page {
-      position: absolute;
-      top: 0;
-      right: -1.875em;
-      z-index: 1;
-  }
-
-  .Main-page  {
-    text-decoration: underline none;
-  }
+#Main-page {
+  position: absolute;
+  top: 0;
+  right: -1.875em;
+  z-index: 1;
+  text-decoration: underline none;
+}
 
 .first-para {
   z-index: 2;
   position: float;
   background: yellow;
-  }
-    h2 {
-    color: black ;
-    background: white;
-    text-decoration: underline black;
-    content: normal;
+}
 
-  }
+h2 {
+  color: black;
+  background: white;
+  text-decoration: underline black;
+  content: normal;
 
-  General {
-    background: red;
+}
 
-  }
+General {
+  background: red;
+}
