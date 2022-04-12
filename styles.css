@@ -17,9 +17,6 @@
   width: 35px;
   height: 35px;
 }
-#One:hover{
-  cursor: pointer;
-}
 #Two{
     position: absolute;
     top: 25px;
