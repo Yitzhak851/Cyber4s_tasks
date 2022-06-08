@@ -6,7 +6,7 @@
   position: relative;
 }
 
-#Zero{
+#Zero {
   position: absolute;
   top: 10px;
   left: 10px;
@@ -14,10 +14,12 @@
   width: 10px;
   height: 10px;
 }
-#One:hover{
+
+#One:hover {
   cursor: pointer;
 }
-#One{
+
+#One {
   position: absolute;
   top: 20px;
   left: 60px;
@@ -25,38 +27,45 @@
   width: 35px;
   height: 35px;
 }
-#Two{
-    position: absolute;
-    top: 25px;
-    left: 100px;
-    height: 20px;
-    width: 80px;
 
-  }
-#Two:hover{
-    cursor: pointer;
+#Two {
+  position: absolute;
+  top: 25px;
+  left: 100px;
+  height: 20px;
+  width: 80px;
+
 }
-#Three{
+
+#Two:hover {
+  cursor: pointer;
+}
+
+#Three {
   position: absolute;
   top: 40px;
   left: 100px;
   width: 80px;
   height: 20px;
 }
-#Three:hover{
+
+#Three:hover {
   cursor: pointer;
 }
-#Four{
+
+#Four {
   position: absolute;
   top: 25px;
   left: 190px;
   width: 520px;
   height: 25px;
 }
-#Four:hover{
+
+#Four:hover {
   cursor: text;
 }
-#Five{
+
+#Five {
   position: absolute;
   top: 25px;
   left: 725px;
@@ -64,22 +73,25 @@
   height: 25px;
   background-color: white;
 }
-#Five:hover{
+
+#Five:hover {
   background-color: blue;
   cursor: pointer;
 }
-#Six{
+
+.Six {
   position: absolute;
   top: 100px;
   left: 5px;
   width: 100%;
   height: 25%;
-  display:inline-block;
+  display: inline-block;
   padding-bottom: 0.25rem;
   position: relative;
-  background-image: linear-gradient(to bottom,#ffffff 0%,#f8f9fa 10%,#f8f9fa 90%,#ffffff 100%);
+  background-image: linear-gradient(to bottom, #ffffff 0%, #f8f9fa 10%, #f8f9fa 90%, #ffffff 100%);
 }
-#Six:hover::before{
+
+#Six:hover::before {
   content: "";
   position: absolute;
   background-color: blue;
@@ -96,23 +108,25 @@
 }
 
 */
-#Seven{
+#Seven {
   position: absolute;
   top: 260px;
   left: 200px;
   width: 230px;
   height: 200px;
   background-color: #f8f9fa;
-  list-style-type: square; 
+  list-style-type: square;
 }
-#Eight{
+
+#Eight {
   position: absolute;
   top: 500px;
   left: 150px;
   width: 1000px;
   height: 2000px;
 }
-#Nine{
+
+#Nine {
   position: absolute;
   top: 120px;
   left: 160px;
@@ -122,13 +136,15 @@
   font-family: sans-serif;
   overflow: visible;
 }
+
 h2 {
   color: black;
   background: white;
   text-decoration: underline black;
   content: normal;
 }
-#Ten{
+
+#Ten {
   position: absolute;
   top: 260px;
   left: 700px;
